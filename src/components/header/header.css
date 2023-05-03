@@ -75,7 +75,7 @@
      }
 
      /* SHOW MENU */
-     .show-menu{
+     .show-menu {
           bottom: 0;
      }
 
@@ -103,7 +103,7 @@
           color: var(--title-color-dark);
      }
 
-     .nav__toggle{
+     .nav__toggle {
           font-size: 1.2rem;
           cursor: pointer;
      }
@@ -117,11 +117,11 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-     .nav__menu{
+     .nav__menu {
           padding: 2rem 0.25rem 4rem;
      }
 
-     .nav__list{
+     .nav__list {
           column-gap: 0;
      }
 }
