@@ -6,14 +6,15 @@ const Data = () => {
 	return (
 		<div className="home__data">
 			<h1 className="home__title">
-				Siddhartha <br />(NotSid)
+				Siddhartha <br />
+				(NotSid)
 				<img src={hand} alt="hand" className="home__hand" />
 			</h1>
 			<h3 className="home__subtitle">Digital Craftsman</h3>
 			<p className="home__description">
-				Hello there! I'm a self-taught Software-Engineer building the best
-				version of myself one step at a time. I'm currently working on
-				personal projects and improving on everything frontend related.
+				Hello there! I'm a frontend developer based in India, and I'm very
+				passionate and dedicated towards levelling up my skills as a
+				developer.
 			</p>
 			<a href="#contact" className="button button--flex">
 				Say Hello!
