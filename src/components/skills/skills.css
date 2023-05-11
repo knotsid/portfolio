@@ -63,9 +63,10 @@
 
 /* For medium devices */
 @media screen and (max-width: 576px) {
-     .skills__container{
+     .skills__container {
           grid-template-columns: 1fr;
      }
+
      .skills__content {
           padding: 1.5rem;
      }
@@ -73,10 +74,11 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-     .skills__box{
+     .skills__box {
           column-gap: 1.25rem;
      }
-     .skills__name{
+
+     .skills__name {
           font-size: var(--smaller-font-size);
      }
 }
