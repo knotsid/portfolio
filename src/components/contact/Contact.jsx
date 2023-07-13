@@ -41,21 +41,27 @@ const Contact = () => {
 						</div>
 
 						<div className="contact__card">
-							<i className="bx bx-mail-send contact__card-icon"></i>
+							<i className="bx bxl-linkedin contact__card-icon"></i>
 							<h3 className="contact__card-title">Linkedin</h3>
-							<span className="contact__card-data">########</span>
-							<a href="" className="contact__button">
-								write me{" "}
+							<span className="contact__card-data">knotsid</span>
+							<a
+								href="https://www.linkedin.com/in/knotsid/"
+								className="contact__button"
+							>
+								Lets connect{" "}
 								<i className="bx bx-right-arrow-alt contact__button-icon"></i>
 							</a>
 						</div>
 
 						<div className="contact__card">
-							<i className="bx bx-mail-send contact__card-icon"></i>
+							<i className="bx bxl-instagram contact__card-icon"></i>
 							<h3 className="contact__card-title">Instagram</h3>
-							<span className="contact__card-data">########</span>
-							<a href="" className="contact__button">
-								write me{" "}
+							<span className="contact__card-data">not._sid</span>
+							<a
+								href="https://www.instagram.com/not._sid/"
+								className="contact__button"
+							>
+								I won't spam reels{" "}
 								<i className="bx bx-right-arrow-alt contact__button-icon"></i>
 							</a>
 						</div>

@@ -8,7 +8,9 @@ const About = () => {
 	return (
 		<section className="about section" id="about">
 			<h2 className="section__title">About Me</h2>
-			<span className="section__subtitle">My Introduction</span>
+			<span className="section__subtitle">
+				Information about me and what I love to do
+			</span>
 
 			<div className="about__container container grid">
 				<img src={AboutImg} alt="" className="about__img" />
@@ -17,10 +19,12 @@ const About = () => {
 					<Info />
 					<p className="about__description">
 						I'm a self-taught Software-Engineer building the best version
-						of myself one step at a time. All projects are built from
-						ground up, with the aim of getting better at backend
-						management. I'm currently working on personal projects and
-						improving on everything Front-End related.
+						of myself one step at a time. <br />
+						<br />
+						All projects are built from ground up, with the aim of solving
+						real-life problems with code. I'm currently working on
+						personal projects and improving on everything frontend
+						related.
 					</p>
 					<a download="" href={Resume} className="button button--flex">
 						Download Resume

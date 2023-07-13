@@ -1,13 +1,11 @@
 import React from "react";
 import hand from "../../assets/hand.svg";
-import send from "../../assets/send.svg";
 
 const Data = () => {
 	return (
 		<div className="home__data">
 			<h1 className="home__title">
-				Siddhartha <br />
-				(NotSid)
+				Siddhartha
 				<img src={hand} alt="hand" className="home__hand" />
 			</h1>
 			<h3 className="home__subtitle">Digital Craftsman</h3>
