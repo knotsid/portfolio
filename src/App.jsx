@@ -11,6 +11,7 @@ import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import CustomCursor from "./components/Cursor/CustomCursor";
 import { useCustomCursor } from "./components/Cursor/useCustomCursor";
+import Projects from "./components/projects/Projects";
 
 function App() {
 	const innerCursorRef = useRef(null);
@@ -20,7 +21,6 @@ function App() {
 
 	return (
 		<>
-			
 			<Header />
 			<CustomCursor
 				innerCursorRef={innerCursorRef}
@@ -29,6 +29,11 @@ function App() {
 			<main className="main">
 				<Home />
 				<About />
+				<Projects 
+				title='card title'
+				imageUrl='https://picsum.photos/seed/picsum/300/200'
+				body='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, fugit.'
+				/>
 				<Skills />
 				{/* <Services /> */}
 				<Contact />
